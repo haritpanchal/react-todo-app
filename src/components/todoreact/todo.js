@@ -72,7 +72,7 @@ export default function Todo() {
     <>
         <div className='main-div'>
             <div className='child-div'>
-                <h2 className='main-title'>Create your TODO List</h2>
+                <h2 className='main-title'>Create your To-Do List</h2>
                 <div className='addItems'>
                     <input type="text" 
                         placeholder='Add Items'
@@ -107,6 +107,9 @@ export default function Todo() {
                     <button className='btn' onClick={removeAll}>
                         <span>Check List</span>
                     </button>
+                </div>
+                <div>
+                    <p className="bio">by Harit Panchal</p>
                 </div>
             </div>
         </div>

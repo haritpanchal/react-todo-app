@@ -13,7 +13,7 @@ html {
 
 .main-div {
     min-height: 100vh;
-    background: #000000a3;
+    background: #060822;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -39,6 +39,12 @@ html {
 .main-title {
     color: white;
     font-size: 24px;
+}
+
+.bio {
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
 input {
@@ -129,7 +135,7 @@ input:focus {
     align-items: center;
 }
 
-.eachItem:nth-child(2) {
+.eachItem:nth-child(even) {
     background: rgb(85, 41, 220);
 }
 
