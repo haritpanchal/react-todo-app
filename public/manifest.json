@@ -1,6 +1,6 @@
 {
   "short_name": "To-Do",
-  "name": "To-Do List",
+  "name": "Panchal To-Do List",
   "icons": [
     {
       "src": "favicon.ico",
@@ -15,7 +15,7 @@
     {
       "src": "haritpanchal.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "256x256"
     }
   ],
   "start_url": ".",
