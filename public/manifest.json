@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Panchal To-Do List",
+  "short_name": "To-Do",
+  "name": "To-Do List",
   "icons": [
     {
       "src": "favicon.ico",
@@ -13,7 +13,7 @@
       "sizes": "192x192"
     },
     {
-      "src": "logo.png",
+      "src": "haritpanchal.png",
       "type": "image/png",
       "sizes": "512x512"
     }
