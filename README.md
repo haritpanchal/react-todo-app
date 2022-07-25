@@ -1,5 +1,7 @@
 # react-todo-app
+
 Todo List app created with React js.
 
-# live url
+# netlify url
+
 https://panchal-todolist.netlify.app/
