@@ -11,14 +11,6 @@ html {
     font-size: 62.5%;
 }
 
-.main-div {
-    min-height: 100vh;
-    background: #060822;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-}
-
 .child-div {
     text-align: center;
     margin-top: 12rem;
@@ -37,12 +29,20 @@ html {
 }
 
 .main-title {
-    color: white;
+    color: #292c35;
     font-size: 24px;
 }
+.dark .main-title{
+    color: #fff;
+}
 
-.bio {
+.dark .bio {
     color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.bio {
+    color: #292c35;
     font-size: 18px;
     margin-top: 10px;
 }

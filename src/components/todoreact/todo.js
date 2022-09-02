@@ -16,6 +16,7 @@ export default function Todo() {
     const [items, setItems] = useState(getLocalData());
     const [isEditItem, setIsEditItem] = useState("");
     const [toggleButton, setToggleButton] = useState(false);
+    const [lightMode, setLightMode] = useState(false)
     const addItem = () =>{
         if(!inputData){
             alert("Please add value")
@@ -66,12 +67,27 @@ export default function Todo() {
     useEffect(() => {
         localStorage.setItem("mytodolist", JSON.stringify(items))
     }, [items])
+
+    const toggleHandler = () => {
+        setLightMode(true);
+        if(lightMode){
+            setLightMode(false) 
+        }
+    }
     
 
   return (
     <>
-        <div className='main-div'>
+        <div className={`main-div ${lightMode ? 'dark' : ''}`}>
             <div className='child-div'>
+                <div>
+                    <input type="checkbox" class="checkbox" id="checkbox" onChange={toggleHandler}/>
+                    <label for="checkbox" class="label">
+                        <i class="fas fa-moon"></i>
+                        <i class='fas fa-sun'></i>
+                        <div class='ball'/>
+                    </label>
+                </div>
                 <h2 className='main-title'>Create your To-Do List</h2>
                 <div className='addItems'>
                     <input type="text" 
