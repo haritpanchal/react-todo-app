@@ -89,15 +89,15 @@ export default function Todo() {
           <div className="dark-light-nav">
             <input
               type="checkbox"
-              class="checkbox"
+              className="checkbox"
               id="checkbox"
               onChange={toggleHandler}
               checked={isChecked}
             />
-            <label for="checkbox" class="label">
-              <i class="fas fa-moon"></i>
-              <i class="fas fa-sun"></i>
-              <div class="ball" />
+            <label htmlFor="checkbox" className="label">
+              <i className="fas fa-moon"></i>
+              <i className="fas fa-sun"></i>
+              <div className="ball" />
             </label>
           </div>
           <h2 className="main-title">Add Items</h2>
