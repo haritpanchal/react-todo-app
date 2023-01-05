@@ -74,7 +74,6 @@ export default function Todo() {
       localStorage.setItem("darkMode", "false");
     }
     else{
-      console.log('here');
       setLightMode(true);
       localStorage.setItem("darkMode", "true");
     }
