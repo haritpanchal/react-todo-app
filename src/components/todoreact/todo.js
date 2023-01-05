@@ -87,7 +87,7 @@ export default function Todo() {
     <>
       <div className={`main-div ${visualMode === "true" ? "dark" : ""}`}>
         <div className="child-div">
-          <div>
+          <div className="dark-light-nav">
             <input
               type="checkbox"
               class="checkbox"
@@ -101,7 +101,7 @@ export default function Todo() {
               <div class="ball" />
             </label>
           </div>
-          <h2 className="main-title">Create your To-Do List</h2>
+          <h2 className="main-title">Add Items</h2>
           <div className="addItems">
             <input
               type="text"
@@ -145,6 +145,7 @@ export default function Todo() {
           </div>
           <div>
             <p className="bio">by Harit Panchal</p>
+            <p className="bio">v1.3</p>
           </div>
         </div>
       </div>

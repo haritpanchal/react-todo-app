@@ -243,3 +243,7 @@ input:focus {
   background-color: #0054b0;
   transform: translateX(50px);
 }
+.dark-light-nav{
+  margin-left: 45%;
+  margin-bottom: 30px;
+}
